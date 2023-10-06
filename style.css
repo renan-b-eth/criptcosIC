@@ -1,12 +1,44 @@
-*{
+
+body{
+    background-repeat: no-repeat;
+    background-image: url("imagens/back1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
     margin: 0;
     padding: 0;
 }
-body{
-    background-image: url("./imagens/background.png");
-}
 
 .imagemTamanho{
-    height: 30%;
-    width: 30%;
+    height: 150px;
+    width: 150px;
+    margin-left: 80px;
+}
+li{
+    display: inline;
+    gap: 100px;
+    color: #777777;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    color: #492fae;
+    font-family: 'Abril Fatface', cursive;
+
+}
+
+.textoPrincipal{
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #777777;
+    font-size: 30px;
+}
+
+.roxo{
+    color: #492fae;
+}
+
+.container{
+    width: 800px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
 }
