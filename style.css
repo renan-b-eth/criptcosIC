@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./imagens/background.png");
+}
+
+.imagemTamanho{
+    height: 30%;
+    width: 30%;
+}
